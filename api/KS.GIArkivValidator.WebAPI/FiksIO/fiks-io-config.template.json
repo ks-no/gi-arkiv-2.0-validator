@@ -1,0 +1,16 @@
+{
+  "apiHost": "api.fiks.test.ks.no",
+  "apiPort": "443",
+  "apiScheme": "https",
+  "amqpHost": "io.fiks.test.ks.no",
+  "amqpPort": "5671",
+  "fiksIoAccountId": "SENDERS_GUID_IN_FIKSIO_HERE",
+  "fiksIoIntegrationId": "GUID_FOR_INTEGRATION_TO_FIKS_HERE",
+  "fiksIoIntegrationPassword": "PASSWORD_FOR_INTEGRATION_TO_FIKS_HERE",
+  "fiksIoIntegrationScope": "ks:fiks",
+  "fiksIoPrivateKey": "PATH\\TO\\PRIVKEY.PEM",
+  "maskinPortenAudienceUrl": "https:\/\/oidc-ver2.difi.no\/idporten-oidc-provider\/",
+  "maskinPortenCompanyCertificateThumbprint": "YOUR_MASKINPORTEN_COMPANY_CERTIFICATE_HERE",
+  "maskinPortenIssuer": "",
+  "maskinPortenTokenUrl": "https:\/\/oidc-ver2.difi.no\/idporten-oidc-provider\/token"
+}

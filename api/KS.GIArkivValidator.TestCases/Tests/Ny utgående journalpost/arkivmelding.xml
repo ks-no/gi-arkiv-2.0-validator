@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-16"?>
+<arkivmelding xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.arkivverket.no/standarder/noark5/arkivmelding">
+  <system>Fagsystem X</system>
+  <meldingId>759d7aab-6f41-487d-bdb9-dd177ee887c1</meldingId>
+  <tidspunkt>2020-09-22T11:11:46.0201128+02:00</tidspunkt>
+  <antallFiler>2</antallFiler>
+  <registrering xsi:type="journalpost">
+    <opprettetAv>Fagsystemets brukerid</opprettetAv>
+    <arkivertAv>Fagsystemets brukerid</arkivertAv>
+    <dokumentbeskrivelse>
+      <dokumentstatus>F</dokumentstatus>
+      <tittel>Vedtak om tillatelse til ...</tittel>
+      <tilknyttetRegistreringSom>H</tilknyttetRegistreringSom>
+      <dokumentobjekt>
+        <referanseDokumentfil>vedtak.pdf</referanseDokumentfil>
+      </dokumentobjekt>
+    </dokumentbeskrivelse>
+    <dokumentbeskrivelse>
+      <dokumentstatus>F</dokumentstatus>
+      <tittel>Vedlegg 1</tittel>
+      <tilknyttetRegistreringSom>V</tilknyttetRegistreringSom>
+      <dokumentobjekt>
+        <referanseDokumentfil>vedlegg1.pdf</referanseDokumentfil>
+      </dokumentobjekt>
+    </dokumentbeskrivelse>
+    <tittel>Tillatelse til ...</tittel>
+    <korrespondansepart>
+      <korrespondanseparttype>EM</korrespondanseparttype>
+      <korrespondansepartNavn>Mons Mottaker</korrespondansepartNavn>
+      <postadresse>Gate 1</postadresse>
+      <postnummer>3801</postnummer>
+      <poststed>Bø</poststed>
+    </korrespondansepart>
+    <korrespondansepart>
+      <korrespondanseparttype>EM</korrespondanseparttype>
+      <korrespondansepartNavn>Foretak Mottaker</korrespondansepartNavn>
+      <organisasjonsnummer>
+        <organisasjonsnummer>123456789</organisasjonsnummer>
+      </organisasjonsnummer>
+      <postadresse>Forretningsgate 1</postadresse>
+      <postnummer>3801</postnummer>
+      <poststed>Bø</poststed>
+      <kontaktperson>Kris Kontakt</kontaktperson>
+    </korrespondansepart>
+    <korrespondansepart>
+      <korrespondanseparttype>IA</korrespondanseparttype>
+      <korrespondansepartNavn>Sigve Saksbehandler</korrespondansepartNavn>
+      <saksbehandler>Sigve Saksbehandler</saksbehandler>
+    </korrespondansepart>
+    <referanseEksternNoekkel>
+      <fagsystem>Fagsystem X</fagsystem>
+      <noekkel>759d7aab-6f41-487d-bdb9-dd177ee887c1</noekkel>
+    </referanseEksternNoekkel>
+    <journalposttype>U</journalposttype>
+  </registrering>
+</arkivmelding>

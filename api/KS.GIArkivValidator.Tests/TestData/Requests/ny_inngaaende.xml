@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-16"?>
+<arkivmelding xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.arkivverket.no/standarder/noark5/arkivmelding">
+  <system>Fagsystem X</system>
+  <meldingId>e4712424-883c-4068-9cb7-97ac679d7232</meldingId>
+  <tidspunkt>2020-09-22T11:11:45.0552598+02:00</tidspunkt>
+  <antallFiler>2</antallFiler>
+  <registrering xsi:type="journalpost">
+    <opprettetAv>Fagsystemets brukerid</opprettetAv>
+    <arkivertAv>Fagsystemets brukerid</arkivertAv>
+    <dokumentbeskrivelse>
+      <dokumentstatus>F</dokumentstatus>
+      <tittel>Rekvisisjon av oppmålingsforretning</tittel>
+      <tilknyttetRegistreringSom>H</tilknyttetRegistreringSom>
+      <dokumentobjekt>
+        <referanseDokumentfil>rekvisisjon.pdf</referanseDokumentfil>
+      </dokumentobjekt>
+    </dokumentbeskrivelse>
+    <dokumentbeskrivelse>
+      <dokumentstatus>F</dokumentstatus>
+      <tittel>Vedlegg 1</tittel>
+      <tilknyttetRegistreringSom>V</tilknyttetRegistreringSom>
+      <dokumentobjekt>
+        <referanseDokumentfil>vedlegg.pdf</referanseDokumentfil>
+      </dokumentobjekt>
+    </dokumentbeskrivelse>
+    <tittel>Bestilling av oppmålingsforretning ...</tittel>
+    <korrespondansepart>
+      <korrespondanseparttype>EM</korrespondanseparttype>
+      <korrespondansepartNavn>Test kommune</korrespondansepartNavn>
+      <organisasjonsnummer>
+        <organisasjonsnummer>123456789</organisasjonsnummer>
+      </organisasjonsnummer>
+      <postadresse>Oppmålingsetaten</postadresse>
+      <postadresse>Rådhusgate 1</postadresse>
+      <postnummer>3801</postnummer>
+      <poststed>Bø</poststed>
+    </korrespondansepart>
+    <korrespondansepart>
+      <korrespondanseparttype>EA</korrespondanseparttype>
+      <korrespondansepartNavn>Anita Avsender</korrespondansepartNavn>
+      <foedselsnummer>
+        <foedselsnummer>12345678901</foedselsnummer>
+      </foedselsnummer>
+      <postadresse>Gate 1</postadresse>
+      <postnummer>3801</postnummer>
+      <poststed>Bø</poststed>
+    </korrespondansepart>
+    <korrespondansepart>
+      <korrespondanseparttype>IM</korrespondanseparttype>
+      <korrespondansepartNavn>Oppmålingsetaten</korrespondansepartNavn>
+      <administrativEnhet>Oppmålingsetaten</administrativEnhet>
+    </korrespondansepart>
+    <referanseEksternNoekkel>
+      <fagsystem>Fagsystem X</fagsystem>
+      <noekkel>e4712424-883c-4068-9cb7-97ac679d7232</noekkel>
+    </referanseEksternNoekkel>
+    <journalposttype>I</journalposttype>
+    <dokumentetsDato>2020-09-20</dokumentetsDato>
+    <mottattDato>2020-09-22T00:00:00+02:00</mottattDato>
+    <offentlighetsvurdertDato>2020-09-22</offentlighetsvurdertDato>
+  </registrering>
+</arkivmelding>
