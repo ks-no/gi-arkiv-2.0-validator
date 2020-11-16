@@ -12,15 +12,16 @@ Følgende må være installert på utviklingsmaskinen:
  
 ### Back-end
 
-Opprett/oppdater databasen ved å navigere til *gi-arkiv-2.0-validator/api/* og kjøre `dotnet ef database update`  
-(Eller med Visual Studios Package Manager Console: `Update-Database`)
+* Opprett/oppdater databasen ved å navigere til *gi-arkiv-2.0-validator/api/KS.GIArkivValidator.WebAPI/* og kjøre `dotnet ef database update` (eller med Visual Studios Package Manager Console: `Update-Database`).
 
-Start back-end ved å åpne **gi-arkiv-2.0-validator/api/KS.GIArkivValidator.sln** i Visual Studio og bygge/kjøre prosjektet **KS.GIArkivValidator.WebAPI**.
+* Konfigurer validatoren for FIKS ved å kopiere malfilen *gi-arkiv-2.0-validator/api/KS.GIArkivValidator.WebAPI/FiksIO/**fiks-io-config.template.json***, til **fiks-io-config.json**, under samme katalog som malfilen, og endre innholdet i denne til aktuelt FIKS-oppsett. Oppsettet krever en privatnøkkel (.pem-fil) som navngis/plasseres iht. filreferansen i **fiks-io-config.json**.
+
+* Start back-end ved å åpne **gi-arkiv-2.0-validator/api/KS.GIArkivValidator.sln** i Visual Studio og bygge/kjøre prosjektet **KS.GIArkivValidator.WebAPI**.
 
 ### Front-end
 
- Hent inn web-applikasjonens avhengigheter ved å navigere til **gi-arkiv-2.0-validator/web-ui/** og å kjøre `npm install`.  
- Start den deretter på localhost med `npm run serve`.
+ * Hent inn web-applikasjonens avhengigheter ved å navigere til **gi-arkiv-2.0-validator/web-ui/** og å kjøre `npm install`.
+ * Start front-end på localhost fra **gi-arkiv-2.0-validator/web-ui/** med `npm run serve`.
 
 
 ## Hvordan utvide validatoren med nye arkivsystem-tester
@@ -75,7 +76,7 @@ Tests
 }
 ```
 
-- **messageType** definerer meldingstypen på meldingen som går **til** arkivsystemet.
-- **payloadQuery** definerer en XPath-spørring som skal utføres på XML-en som kommer som svar **fra** arkivsystemet.
+- **messageType** definerer meldingstypen på meldingen som går til arkivsystemet.
+- **payloadQuery** definerer en XPath-spørring som skal utføres på XML-en som kommer som svar fra arkivsystemet.
 - **expectedValue** definerer hvilken verdi man forventer å finne på elementet man spør etter i **payloadQuery**. Man kan bruke "\*" for å sjekke om elementet har en verdi som ikke er tom, null eller whitespace. Dersom man kun skal sjekke om elementet finnes, behøver man hverken å oppgi denne parameteren eller **valueType**.
 - **valueType** definerer om man spør etter en verdi (0), eller et attributt (1).
