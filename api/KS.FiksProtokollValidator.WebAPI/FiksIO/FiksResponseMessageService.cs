@@ -42,6 +42,11 @@ namespace KS.FiksProtokollValidator.WebAPI.FiksIO
         {
             var payloads = new Dictionary<string, string>();
 
+            if (fileArgs.Melding.MeldingType.Equals(Resources.ResponseMessageTypes.Timeout))
+            {
+                ResendMessage(fileArgs);
+            }
+
             if (fileArgs.Melding.HasPayload)
             {
                 // Verify that message has payload
@@ -115,6 +120,40 @@ namespace KS.FiksProtokollValidator.WebAPI.FiksIO
             {
                 fileArgs.SvarSender?.Ack();
             }
+        }
+
+        private void ResendMessage(MottattMeldingArgs fileArgs)
+        {
+            var mottattMelding = fileArgs.Melding;
+            try
+            {
+                FiksRequest request;
+                using (var context = new FiksIOMessageDBContext(new DbContextOptions<FiksIOMessageDBContext>()))
+                {
+                    request = context.TestSessions.Include(t => t.FiksRequests)
+                        .FirstOrDefault(
+                            t => t.FiksRequests.Any(r => r.MessageGuid.Equals(mottattMelding.SvarPaMelding)))
+                        .FiksRequests.Find(r => r.MessageGuid.Equals(mottattMelding.SvarPaMelding));
+
+                    request.ReSentAt = DateTime.Now;
+                }
+
+                using (var fiksRequestMessageService = new FiksRequestMessageService())
+                {
+                    fiksRequestMessageService.Send(request, mottattMelding.AvsenderKontoId);
+                    request.NumberOfReSendings++;
+                }
+            }
+            catch (Exception e)
+            {
+                _logger.Log(LogLevel.Error,
+                    "Klarte ikke å matche svar-melding fra FIKS med en eksisterende testsesjon. Svarmelding forkastes.");
+            }
+            finally
+            {
+                fileArgs.SvarSender.Ack();
+            }
+
         }
     }
 }
