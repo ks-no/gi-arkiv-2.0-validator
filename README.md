@@ -1,4 +1,4 @@
-# GI Arkiv 2.0 Validator
+# Fiks-Protokollvalidator
 
 ## Oppsett og kjøring i lokalt utviklingsmiljø
 
@@ -12,21 +12,21 @@ Følgende må være installert på utviklingsmaskinen:
  
 ### Back-end
 
-* Opprett/oppdater databasen ved å navigere til *gi-arkiv-2.0-validator/api/KS.GIArkivValidator.WebAPI/* og kjøre `dotnet ef database update` (eller med Visual Studios Package Manager Console: `Update-Database`).
+* Opprett/oppdater databasen ved å navigere til *fiks-protokoll-validator/api/KS.FiksProtokollValidator.WebAPI/* og kjøre `dotnet ef database update` (eller med Visual Studios Package Manager Console: `Update-Database`).
 
-* Konfigurer validatoren for FIKS ved å kopiere malfilen *gi-arkiv-2.0-validator/api/KS.GIArkivValidator.WebAPI/FiksIO/**fiks-io-config.template.json***, til **fiks-io-config.json**, under samme katalog som malfilen, og endre innholdet i denne til aktuelt FIKS-oppsett. Oppsettet krever en privatnøkkel (.pem-fil) som navngis/plasseres iht. filreferansen i **fiks-io-config.json**.
+* Konfigurer validatoren for FIKS ved å kopiere malfilen *fiks-protokoll-validator/api/KS.FiksProtokollValidator.WebAPI/FiksIO/**fiks-io-config.template.json***, til **fiks-io-config.json**, under samme katalog som malfilen, og endre innholdet i denne til aktuelt FIKS-oppsett. Oppsettet krever en privatnøkkel (.pem-fil) som navngis/plasseres iht. filreferansen i **fiks-io-config.json**.
 
-* Start back-end ved å åpne **gi-arkiv-2.0-validator/api/KS.GIArkivValidator.sln** i Visual Studio og bygge/kjøre prosjektet **KS.GIArkivValidator.WebAPI**.
+* Start back-end ved å åpne **fiks-protokoll-validator/api/KS.FiksProtokollValidator.sln** i Visual Studio og bygge/kjøre prosjektet **KS.FiksProtokollValidator.WebAPI**.
 
 ### Front-end
 
- * Hent inn web-applikasjonens avhengigheter ved å navigere til **gi-arkiv-2.0-validator/web-ui/** og å kjøre `npm install`.
- * Start front-end på localhost fra **gi-arkiv-2.0-validator/web-ui/** med `npm run serve`.
+ * Hent inn web-applikasjonens avhengigheter ved å navigere til **fiks-protokoll-validator/web-ui/** og å kjøre `npm install`.
+ * Start front-end på localhost fra **fiks-protokoll-validator/web-ui/** med `npm run serve`.
 
 
 ## Hvordan utvide validatoren med nye arkivsystem-tester
 
-Validatorens tester er/blir definert som kataloger under Tests/ i prosjektet **KS.GIArkivValidator.TestCases**. Test-katalogenes navn er/blir testenes navn i databasen og dermed i brukergrensesnittet. Alle validatorens tester skal ha ulike navn.
+Validatorens tester er/blir definert som kataloger under Tests/ i prosjektet **KS.FiksProtokollValidator.TestCases**. Test-katalogenes navn er/blir testenes navn i databasen og dermed i brukergrensesnittet. Alle validatorens tester skal ha ulike navn.
 
 * Opprett en ny katalog og gi den navnet på den nye testen.
 * I den nye test-katalogen opprettes filene "arkivmelding.xml", "testCriteria.json" og eventuelt en katalog for vedlegg.

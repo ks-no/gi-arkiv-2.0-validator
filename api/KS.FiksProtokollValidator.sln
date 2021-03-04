@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KS.FiksProtokollValidator.WebAPI", "KS.FiksProtokollValidator.WebAPI\KS.FiksProtokollValidator.WebAPI.csproj", "{DFF1BFF3-C1C0-4AA0-941B-55A4477E6D92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KS.FiksProtokollValidator.Tests", "KS.FiksProtokollValidator.Tests\KS.FiksProtokollValidator.Tests.csproj", "{000F7B73-7AF0-4B92-BDBB-8669DEBB5CFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KS.FiksProtokollValidator.TestCases", "KS.FiksProtokollValidator.TestCases\KS.FiksProtokollValidator.TestCases.csproj", "{97CAC63A-EA58-44E3-8CE0-4F82139A883A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFF1BFF3-C1C0-4AA0-941B-55A4477E6D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF1BFF3-C1C0-4AA0-941B-55A4477E6D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF1BFF3-C1C0-4AA0-941B-55A4477E6D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF1BFF3-C1C0-4AA0-941B-55A4477E6D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000F7B73-7AF0-4B92-BDBB-8669DEBB5CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000F7B73-7AF0-4B92-BDBB-8669DEBB5CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000F7B73-7AF0-4B92-BDBB-8669DEBB5CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000F7B73-7AF0-4B92-BDBB-8669DEBB5CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CAC63A-EA58-44E3-8CE0-4F82139A883A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CAC63A-EA58-44E3-8CE0-4F82139A883A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CAC63A-EA58-44E3-8CE0-4F82139A883A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CAC63A-EA58-44E3-8CE0-4F82139A883A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD45CF1E-BF14-4997-9A19-B546E95F1C1C}
+	EndGlobalSection
+EndGlobal
