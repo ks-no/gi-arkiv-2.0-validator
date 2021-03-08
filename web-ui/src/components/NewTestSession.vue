@@ -46,6 +46,11 @@
           :messageType="testCase.messageType"
           :payloadFileName="testCase.payloadFileName"
           :payloadAttachmentFileNames="testCase.payloadAttachmentFileNames"
+          :description="testCase.description"
+          :testStep="testCase.testStep"
+          :operation="testCase.operation"
+          :situation="testCase.situation"
+          :expectedResult="testCase.expectedResult"
           :hasRun="hasRun"
           :isCollapsed="true"
         />

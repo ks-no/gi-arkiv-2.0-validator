@@ -12,6 +12,7 @@ namespace KS.FiksProtokollValidator.WebAPI.Data
 
         public DbSet<TestCase> TestCases { get; set; }
         public DbSet<TestSession> TestSessions { get; set; }
+        public DbSet<FiksResponseTest> FiksResponseTest { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

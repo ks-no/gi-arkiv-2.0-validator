@@ -23,8 +23,9 @@ namespace KS.FiksProtokollValidator.WebAPI.Data
 
             foreach (var testDirectory in tests.GetDirectories())
             {
-                var testCriteriaJson = File.ReadAllText(Path.Combine(testDirectory.FullName, "testCriteria.json"));
-                var testCriteria = JObject.Parse(testCriteriaJson);
+                var testInformationJson =
+                    File.ReadAllText(Path.Combine(testDirectory.FullName, "testInformation.json"));
+                var testInformation = JObject.Parse(testInformationJson);
 
                 var testName = testDirectory.Name;
 
@@ -33,10 +34,15 @@ namespace KS.FiksProtokollValidator.WebAPI.Data
 
                 var test = new TestCase
                 {
-                    TestName = testName,
-                    MessageType = (string) testCriteria["messageType"],
+                    TestName = (string)testInformation["testName"],
+                    MessageType = (string) testInformation["messageType"],
                     PayloadFileName = "arkivmelding.xml",
-                    FiksResponseTests = new List<FiksResponseTest>()
+                    FiksResponseTests = new List<FiksResponseTest>(),
+                    Description = (string) testInformation["description"],
+                    TestStep = (string) testInformation["testStep"],
+                    Operation = (string) testInformation["operation"],
+                    Situation = (string) testInformation["situation"],
+                    ExpectedResult = (string) testInformation["expectedResult"]
                 };
 
                 var attachmentDirectory = Path.Combine(testDirectory.FullName, "Attachments");
@@ -53,7 +59,7 @@ namespace KS.FiksProtokollValidator.WebAPI.Data
                     test.PayloadAttachmentFileNames = payloadAttachmentFileNames.TrimEnd(';');
                 }
 
-                foreach (var queryWithExpectedValue in testCriteria["queriesWithExpectedValues"])
+                foreach (var queryWithExpectedValue in testInformation["queriesWithExpectedValues"])
                 {
                     var fiksResponseTest = new FiksResponseTest
                     {
@@ -72,7 +78,7 @@ namespace KS.FiksProtokollValidator.WebAPI.Data
 
         private bool TestExistInDatabase(string testName)
         {
-            return _context.TestCases.Any(a => a.TestName.Equals(testName));
+            return _context.TestCases.Any(a => (a.Operation+a.Situation).Equals(testName));
         }
     }
 }

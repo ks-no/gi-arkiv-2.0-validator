@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace KS.FiksProtokollValidator.WebAPI.Models
@@ -20,5 +20,16 @@ namespace KS.FiksProtokollValidator.WebAPI.Models
         public string PayloadAttachmentFileNames { get; set; }
 
         public List<FiksResponseTest> FiksResponseTests { get; set; }
+
+        [Required]
+        public string Description { get; set; }
+        [Required]
+        public string TestStep { get; set; }
+        [Required]
+        public string Operation { get; set; }
+        [Required]
+        public string Situation { get; set; }
+        [Required]
+        public string ExpectedResult { get; set; }
     }
 }

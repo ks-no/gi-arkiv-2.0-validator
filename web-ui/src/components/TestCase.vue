@@ -44,19 +44,45 @@
     <b-collapse :visible="!isCollapsed" :id="'collapse-' + testId">
       <b-container fluid>
         <b-row style="margin-bottom: 5px">
-          <b-col cols="2"> <strong class="header"> Meldingsinnhold: </strong> </b-col>
-          <b-col>
-            <TestCasePayloadFile
-              :testName="this.testName"
-              :fileName="this.payloadFileName"
-            />
+          <b-col cols="2">
+            <strong class="header">Beskrivelse:</strong>
           </b-col>
+          <b-col> {{ description }} </b-col>
+        </b-row>
+        <b-row style="margin-bottom: 5px">
+          <b-col cols="2">
+            <strong class="header">Testtrinn:</strong>
+          </b-col>
+          <b-col> {{ testStep }} </b-col>
+        </b-row>
+        <b-row style="margin-bottom: 5px">
+          <b-col cols="2">
+            <strong class="header">Operasjon:</strong>
+          </b-col>
+          <b-col> {{ operation }} </b-col>
+        </b-row>
+        <b-row style="margin-bottom: 5px">
+          <b-col cols="2">
+            <strong class="header">Situasjon:</strong>
+          </b-col>
+          <b-col> {{ situation }} </b-col>
         </b-row>
         <b-row style="margin-bottom: 5px">
           <b-col cols="2">
             <strong class="header">Meldingstype:</strong>
           </b-col>
           <b-col> {{ messageType }} </b-col>
+        </b-row>
+        <b-row style="margin-bottom: 5px">
+          <b-col cols="2"> <strong class="header"> Meldingsinnhold: </strong> </b-col>
+          <b-col>
+            <TestCasePayloadFile
+              :testName="testName"
+              :fileName="payloadFileName"
+              :operation="operation"
+              :situation="situation"
+            />
+          </b-col>
         </b-row>
         <div v-if="payloadAttachmentFileNames">
           <b-row style="margin-bottom: 5px">
@@ -65,7 +91,8 @@
               <div v-for="attachmentFileName in payloadAttachmentFileNames.split(';')"
                 :key="attachmentFileName">
               <TestCasePayloadFile
-                :testName="testName"
+                :operation="operation"
+                :situation="situation"
                 :fileName="attachmentFileName"
                 :isAttachment="true"
               />
@@ -106,6 +133,26 @@ export default {
       type: String
     },
     messageType: {
+      required: true,
+      type: String
+    },
+    description: {
+      required: true,
+      type: String
+    },
+    testStep: {
+      required: true,
+      type: String
+    },
+    operation: {
+      required: true,
+      type: String
+    },
+    expectedResult: {
+      required: true,
+      type: String
+    },
+    situation: {
       required: true,
       type: String
     },

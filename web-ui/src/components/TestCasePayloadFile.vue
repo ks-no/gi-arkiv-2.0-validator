@@ -25,10 +25,6 @@ export default {
   },
 
   props: {
-    testName: {
-      required: true,
-      type: String
-    },
     fileName: {
       required: true,
       type: String
@@ -36,14 +32,23 @@ export default {
     isAttachment: {
       required: false,
       type: Boolean
+    },
+    operation: {
+      required: false,
+      type: String
+    },
+    situation: {
+      required: false,
+      type: String
     }
   },
   
   methods: {
     getContent: function(isTextContent) {
-      var endPointUrl = this.isAttachment
-        ? this.testName + "/" + this.fileName
-        : this.testName;
+      var endPointUrl = this.isAttachment ? 
+      this.operation + "" + this.situation + "/" + this.fileName
+      : this.operation + "" + this.situation;
+        
 
       var settings = {
         responseType: isTextContent ? "text" : "blob",
