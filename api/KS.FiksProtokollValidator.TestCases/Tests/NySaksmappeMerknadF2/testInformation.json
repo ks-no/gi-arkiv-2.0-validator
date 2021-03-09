@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Merknad merknad.merknadstype(FEIL), merknad.merknadstekst og saksnoekkel.saksaar.sakssekvensnummer",
+    "description": "",
+    "testStep": "Feilsituasjon 2 Finnes ikke",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NySaksmappeMerknad",
+    "situation": "F2",
+    "expectedResult": "FinderFault med info om at merknadstype ikke finnes",
+    "queriesWithExpectedValues": []
+}

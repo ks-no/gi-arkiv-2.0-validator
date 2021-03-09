@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Merknad merknad.merknadstype, merknad.merknadstekst og saksnoekkel.saksaar.sakssekvensnummer", //Evt. eksisterende beholdes. Merknadsstypen skal være registrert på forhånd
+    "description": "",
+    "testStep": "Normalsituasjon 1 Input Merknad",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NySaksmappeMerknad",
+    "situation": "N1",
+    "expectedResult": "Saksmappe oppdatert med ny merknad",
+    "queriesWithExpectedValues": []
+}
