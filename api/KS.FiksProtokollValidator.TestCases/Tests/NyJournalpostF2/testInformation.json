@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Journalpost med tittel, journalposttype.kodeverdi og referanseArkivdel.kodeverdi(FEIL)",
+    "description": "",
+    "testStep": "Feilsituasjon 2 Finnes ikke",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NyJournalpost",
+    "situation": "F2",
+    "expectedResult": "ValidationFault med info om at arkivdel ikke finnes",
+    "queriesWithExpectedValues": []
+}

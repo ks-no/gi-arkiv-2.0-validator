@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Journalpost med tittel, journalposttype.kodeverdi, informasjonstype.kodeverdi(FEIL) og informasjon",
+    "description": "",
+    "testStep": "Feilsituasjon 5 Finnes ikke",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NyJournalpost",
+    "situation": "F5",
+    "expectedResult": "FinderFault med info om at informasjonstype ikke finnes",
+    "queriesWithExpectedValues": []
+}

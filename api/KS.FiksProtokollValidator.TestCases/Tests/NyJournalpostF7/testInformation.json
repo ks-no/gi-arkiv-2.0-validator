@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Journalpost med tittel, journalposttype.kodeverdi, korrespondanseparttype.kodeverdikontakt.navn og avskrivningsmaate.kodeverdi, referanseAvskriverEksternNoekkel.fagsystem.noekkel",
+    "description": "",
+    "testStep": "Feilsituasjon 7 Finnes ikke",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NyJournalpost",
+    "situation": "F7",
+    "expectedResult": "FinderFault med info om at journalpost ikke finnes",
+    "queriesWithExpectedValues": []
+}
