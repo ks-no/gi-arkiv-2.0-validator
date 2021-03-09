@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Saksmappe og Sakspart, med tittel, infrmasjonstype.kodeverdi og informasjon", //Informasjonstypen skal være registrert på forhånd og informasjonstype.kodeverdi må inneholde GroupIdentifier/ fieldIdentifier
+    "description": "",
+    "testStep": "Normalsituasjon 8 Input Saksmappe og Tilleggsinformasjon med retur av Saksmappe",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NySaksmappe",
+    "situation": "N8",
+    "expectedResult": "Saksmappe og tilleggsinformasjon med utfylte standardverdier",
+    "queriesWithExpectedValues": []
+}

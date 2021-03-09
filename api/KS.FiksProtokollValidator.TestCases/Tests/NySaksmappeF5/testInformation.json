@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Saksmappe og Tilleggsinformasjon, med tittel, informasjonstye.kodeverdi, informasjon og oppbevaresTilDato 'i går'", // OppbevaresTilDato støttes ikke
+    "description": "",
+    "testStep": "Feilsituasjon 5 Finnes ikke",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NySaksmappe",
+    "situation": "F5",
+    "expectedResult": "ValidationFault med info om ulovlig verdi i oppbevaresTilDato",
+    "queriesWithExpectedValues": []
+}

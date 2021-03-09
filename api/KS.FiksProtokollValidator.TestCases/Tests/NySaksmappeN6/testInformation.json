@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Saksmappe og Klasse, med tittel og klassifikasjonssystem.kodeverdiklasseID FE123",
+    "description": "",
+    "testStep": "Normalsituasjon 6 Input Saksmappe med retur av Saksmappe",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NySaksmappe",
+    "situation": "N6",
+    "expectedResult": "Saksmappe og klasse med utfylte standardverdier",
+    "queriesWithExpectedValues": []
+}

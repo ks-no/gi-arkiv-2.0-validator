@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Saksmappe med tittel og saksdato", // TODO: Saksdato skal være "igår"
+    "description": "",
+    "testStep": "Normalsituasjon 3 Input Saksmappe med retur av Saksmappe",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NySaksmappe",
+    "situation": "N3",
+    "expectedResult": "Saksmappe med utfylte standardverdier",
+    "queriesWithExpectedValues": []
+}

@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Saksmappe og Klasse, med tittel og klassifikasjonssystem.kodeverdiklasseID FE12345",
+    "description": "",
+    "testStep": "Feilsituasjon 3 Finnes ikke",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NySaksmappe",
+    "situation": "F3",
+    "expectedResult": "FinderFault med info om at klasseID ikke finnes",
+    "queriesWithExpectedValues": []
+}
