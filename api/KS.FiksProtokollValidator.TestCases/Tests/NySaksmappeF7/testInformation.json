@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Saksmappe og Tilleggsinformasjon, med tittel og feil i matrikkelnummer", // Vi forutsetter at integrerende klient har validert om matrikkel finnes
+    "description": "",
+    "testStep": "Feilsituasjon 7 Finnes ikke",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NySaksmappe",
+    "situation": "F7",
+    "expectedResult": "FinderFault med info om at matrikkelnummer ikke finnes",
+    "queriesWithExpectedValues": []
+} //Skal ikke denne inneholde kommunenummer? Vil den ikke feile på at den ikke inneholder kommunenummer?

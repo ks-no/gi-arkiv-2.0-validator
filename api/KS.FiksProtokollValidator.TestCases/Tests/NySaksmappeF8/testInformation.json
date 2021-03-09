@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Saksmappe og Tilleggsinformasjon, matrikkelnummer og feil kommunenummer", // Vi forutsetter at integrerende klient har validert om matrikkel finnes
+    "description": "",
+    "testStep": "Feilsituasjon 8 Finnes ikke",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NySaksmappe",
+    "situation": "F8",
+    "expectedResult": "FinderFault med info om at matrikkelnummer ikke finnes",
+    "queriesWithExpectedValues": []
+}
