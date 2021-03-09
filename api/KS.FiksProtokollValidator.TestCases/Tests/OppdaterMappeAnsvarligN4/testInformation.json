@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Ansvarlig enhet med nyAdministratiEnhetKode Nivå1, nySaksbehandlerInit og saksnoekkel.saksaarsaksekvensnummer", //Forutsetter at det er registrert en enhet med kode Nivå1.Nivå2 og en saksbehandler med initialer Sbh. Små / store bokstaver er ikke signifikante.
+    "description": "",
+    "testStep": "Normalsituasjon 4 Input Ansvarlig enhet med retur av Saksmappe",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "OppdaterMappeAnsvarlig",
+    "situation": "N4",
+    "expectedResult": "Saksmappe med oppdatert enhet og uten saksbehandler",
+    "queriesWithExpectedValues": []
+}

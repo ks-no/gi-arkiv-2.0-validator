@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Saksstatus med sakstatus.kodeverdi(F) og saksnoekkel.saksaar.sakssekvensnummer", //Forutsetter at det er registrert en status F. Store bokstaver forutsettes.
+    "description": "",
+    "testStep": "Normalsituasjon 2 Input Saksstatus med retur av Saksmappe",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "OppdaterMappeStatus",
+    "situation": "N2",
+    "expectedResult": "Saksmappe med oppdatert status",
+    "queriesWithExpectedValues": []
+}

@@ -1,0 +1,10 @@
+{
+    "testName": "Send ny Ansvarlig enhet med nyAdministratiEnhetKode Nivå1, nySaksbehandlerInit og saksnoekkel(1900).saksaarsaksekvensnummer(1)",
+    "description": "",
+    "testStep": "Feilsituasjon 4 Finnes ikke",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "OppdaterMappeAnsvarlig",
+    "situation": "F4",
+    "expectedResult": "FinderFault med info om at saksmappe ikke finnes",
+    "queriesWithExpectedValues": []
+}
