@@ -1,6 +1,9 @@
 <template>
-  <div>
+  <div>     
+    <b-container>
+      <b-row>
     <span class="grow-right" :class="!hasRun ? 'notHasrun' : ''">
+      <b-col sm="9">
       <span
         v-on:click="isNotCollapsed = !isNotCollapsed"
         v-on:keyup.enter="isNotCollapsed = !isNotCollapsed"
@@ -33,6 +36,8 @@
           </h5>
         </div>
       </span>
+      </b-col>
+      <b-col sm="1">
       <b-form-checkbox
         v-if="!hasRun"
         class="ext-left"
@@ -40,6 +45,7 @@
         size="lg"
         :value="testId"
       />
+      </b-col>
     </span>
     <b-collapse :visible="!isCollapsed" :id="'collapse-' + testId">
       <b-container fluid>
@@ -102,6 +108,8 @@
         </div>
       </b-container>
     </b-collapse>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -187,6 +195,7 @@ strong.header {
   justify-content: space-between;
   width: 100%;
   align-items: center;
+  font-size: 16px;
 }
 
 .flex-title > * {
