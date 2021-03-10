@@ -1,5 +1,5 @@
 {
-    "testName": "Send ny Journalpost med tittel, journalposttype.kodeverdi, korrespondanseparttype.kodeverdikontakt.navn og avskrivningsmaate.kodeverdi",
+    "testName": "Send ny Journalpost med tittel, journalposttype.kodeverdi, korrespondanseparttype.kodeverdikontakt.navn og avskrivningsmaate.kodeverdi(ZZZ)",
     "description": "",
     "testStep": "Feilsituasjon 6 Ulovlig verdi",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
