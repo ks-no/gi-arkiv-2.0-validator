@@ -1,4 +1,4 @@
-{
+﻿{
     "testName": "Send ny Ansvarlig med inputverdi NULL",
     "description": "",
     "testStep": "Normalsituasjon 3 Input Ansvarlig med retur av Journalpost",

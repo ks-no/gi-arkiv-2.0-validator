@@ -1,4 +1,4 @@
-{
+﻿{
     "testName": "Send ny Saksmappe og Tilleggsinformasjon og ulovlig verdi 0/1/0/0 i matrikkelnummer ", // Vi forutsetter at integrerende klient har validert om matrikkel finnes
     "description": "",
     "testStep": "Feilsituasjon 10 Finnes ikke",
@@ -7,4 +7,4 @@
     "situation": "F10",
     "expectedResult": "ValidationFault",
     "queriesWithExpectedValues": []
-} //Skal ikke denne inneholde kommunenummer? Vil den ikke feile p� at den ikke inneholder kommunenummer?
+} //Skal ikke denne inneholde kommunenummer? Vil den ikke feile på at den ikke inneholder kommunenummer?

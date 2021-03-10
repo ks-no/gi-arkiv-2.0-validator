@@ -1,10 +1,10 @@
-{
-    "testName": "Send ny Ansvarlig saksbehandler med nyAdministratiEnhetKode NivÂX, nySaksbehandlerInit og saksnoekkel.saksaarsaksekvensnummer",
+Ôªø{
+    "testName": "Send ny Ansvarlig saksbehandler med nyAdministratiEnhetKode Niv√•X, nySaksbehandlerInit og saksnoekkel.saksaarsaksekvensnummer",
     "description": "",
     "testStep": "Feilsituasjon 1 Finnes ikke",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "OppdaterMappeAnsvarlig",
     "situation": "F1",
-    "expectedResult": "FinderFault med info om at enhet NivÂX ikke finnes",
+    "expectedResult": "FinderFault med info om at enhet Niv√•X ikke finnes",
     "queriesWithExpectedValues": []
 }

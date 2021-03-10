@@ -1,5 +1,5 @@
-{
-    "testName": "Send ny Journalpost med tittel, journalposttype.kodeverdi, informasjonstype.kodeverdi, informasjon og oppbevaresTilDato(i g�r)",
+﻿{
+    "testName": "Send ny Journalpost med tittel, journalposttype.kodeverdi, informasjonstype.kodeverdi, informasjon og oppbevaresTilDato(i går)",
     "description": "",
     "testStep": "Feilsituasjon 4 Ulovlig verdi",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",

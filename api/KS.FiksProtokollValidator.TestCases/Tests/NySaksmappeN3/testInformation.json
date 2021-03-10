@@ -1,5 +1,5 @@
-{
-    "testName": "Send ny Saksmappe med tittel og saksdato", // TODO: Saksdato skal være "igår"
+ï»¿{
+    "testName": "Send ny Saksmappe med tittel og saksdato", // TODO: Saksdato skal vÃ¦re "igÃ¥r"
     "description": "",
     "testStep": "Normalsituasjon 3 Input Saksmappe med retur av Saksmappe",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",

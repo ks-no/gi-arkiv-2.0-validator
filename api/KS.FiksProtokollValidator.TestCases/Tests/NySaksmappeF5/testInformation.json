@@ -1,5 +1,5 @@
-{
-    "testName": "Send ny Saksmappe og Tilleggsinformasjon, med tittel, informasjonstye.kodeverdi, informasjon og oppbevaresTilDato 'i går'", // OppbevaresTilDato støttes ikke
+ï»¿{
+    "testName": "Send ny Saksmappe og Tilleggsinformasjon, med tittel, informasjonstye.kodeverdi, informasjon og oppbevaresTilDato 'i gÃ¥r'", // OppbevaresTilDato stÃ¸ttes ikke
     "description": "",
     "testStep": "Feilsituasjon 5 Finnes ikke",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",

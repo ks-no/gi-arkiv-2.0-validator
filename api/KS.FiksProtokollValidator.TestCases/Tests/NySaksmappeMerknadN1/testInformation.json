@@ -1,5 +1,5 @@
-{
-    "testName": "Send ny Merknad merknad.merknadstype, merknad.merknadstekst og saksnoekkel.saksaar.sakssekvensnummer", //Evt. eksisterende beholdes. Merknadsstypen skal være registrert på forhånd
+ï»¿{
+    "testName": "Send ny Merknad merknad.merknadstype, merknad.merknadstekst og saksnoekkel.saksaar.sakssekvensnummer", //Evt. eksisterende beholdes. Merknadsstypen skal vÃ¦re registrert pÃ¥ forhÃ¥nd
     "description": "",
     "testStep": "Normalsituasjon 1 Input Merknad",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",

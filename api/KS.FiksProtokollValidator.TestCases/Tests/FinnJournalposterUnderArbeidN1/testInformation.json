@@ -1,10 +1,10 @@
-{
+ï»¿{
     "testName": "Send ny Ansvarlig med inputverdi EGEN",
     "description": "",
     "testStep": "Normalsituasjon 1 Input Ansvarlig med retur av Journalpost",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "FinnJournalposterUnderArbeid",
     "situation": "N1",
-    "expectedResult": "Journalposter registrert med pålogget bruker som ansvarlig og med status “R” (reservert / under arbeid)",
+    "expectedResult": "Journalposter registrert med pÃ¥logget bruker som ansvarlig og med status â€œRâ€ (reservert / under arbeid)",
     "queriesWithExpectedValues": []
 }

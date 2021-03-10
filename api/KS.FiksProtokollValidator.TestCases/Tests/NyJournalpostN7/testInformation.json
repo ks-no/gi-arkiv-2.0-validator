@@ -1,5 +1,5 @@
-{
-    "testName": "Send ny Journalpost med tittel, journalposttype.kodeverdi, informasjonstype.kodeverdi og informasjon", //Informasjonstyp en forutsettes registrert i arkivet. informasjonstyp e.kodeverdi m� inneholde GroupIdentifier/f ieldIdentifier Gjelder for alle viksomhets spesifikke metadata felter.
+﻿{
+    "testName": "Send ny Journalpost med tittel, journalposttype.kodeverdi, informasjonstype.kodeverdi og informasjon", //Informasjonstyp en forutsettes registrert i arkivet. informasjonstyp e.kodeverdi må inneholde GroupIdentifier/f ieldIdentifier Gjelder for alle viksomhets spesifikke metadata felter.
     "description": "",
     "testStep": "Normalsituasjon 7 Input Journalpost med retur av Journalpost",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",

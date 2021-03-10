@@ -1,5 +1,5 @@
-{
-    "testName": "Send ny Ansvarlig enhet med nyAdministratiEnhetKode Niv�X, nySaksbehandlerInit og saksnoekkel(2011).saksaarsaksekvensnummer(1)",
+﻿{
+    "testName": "Send ny Ansvarlig enhet med nyAdministratiEnhetKode NivåX, nySaksbehandlerInit og saksnoekkel(2011).saksaarsaksekvensnummer(1)",
     "description": "",
     "testStep": "Feilsituasjon 3 Finnes ikke",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
