@@ -1,0 +1,10 @@
+﻿{
+    "testName": "Send ny EksternNøkkel med eksternnoekkel.fagsystem.noekkel(1234) og journalnoekkel.saksaar.sakssekvensnummer.journalpostnummer", //Fagsystemet skal være registrert om dette ikke gjøres automatisk
+    "description": "",
+    "testStep": "Normalsituasjon 1 Input EksternNøkkel med retur av Journalpost",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "OppdaterJournalpostEksternNøkkel",
+    "situation": "N1",
+    "expectedResult": "Journalpost med oppdatert eksternnøkkel",
+    "queriesWithExpectedValues": []
+}

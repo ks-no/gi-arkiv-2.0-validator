@@ -1,0 +1,10 @@
+﻿{
+    "testName": "Send ny Journalstatus journalstatus.kodeverdi(Y) og journalnoekkel.saksaar.sakssekvensnummer.journalpostnummer",
+    "description": "",
+    "testStep": "Feilsituasjon 1 Finnes ikke",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "OppdaterJournalpostStatus",
+    "situation": "F1",
+    "expectedResult": "FinderFault med info om at journalstatus ikke finnes",
+    "queriesWithExpectedValues": []
+}
