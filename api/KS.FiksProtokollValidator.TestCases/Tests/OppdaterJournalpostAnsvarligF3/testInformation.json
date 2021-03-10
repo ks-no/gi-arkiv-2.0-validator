@@ -1,10 +1,10 @@
 ﻿{
     "testName": "Send Ansvarlig med enhet med nyAdministrativEnhetKode(NivåX), nySaksbehandlerInit og journalnoekkel.saksaar(2011).sakssekvensnummer.journalpostnummer",
     "description": "",
-    "testStep": "Feilsituasjon 2 Finnes ikke",
+    "testStep": "Feilsituasjon 3 Finnes ikke",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "OppdaterJournalpostAnsvarlig",
-    "situation": "F2",
-    "expectedResult": "FinderFault med info om at saksmappe / journalpost ikke finnes",
+    "situation": "F3",
+    "expectedResult": "FinderFault med info om at enhet ikke finnes",
     "queriesWithExpectedValues": []
 }

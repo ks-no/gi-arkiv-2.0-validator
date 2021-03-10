@@ -1,0 +1,10 @@
+﻿{
+    "testName": "Send Avskrivning med avskrivningsmaate.kodeverdi(ZZZ) og journalnoekkel.saksaar.sakssekvensnummer.journalpostnummer",
+    "description": "",
+    "testStep": "Feilsituasjon 1 Ulovlig verdi",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NyAvskrivning",
+    "situation": "F1",
+    "expectedResult": "FinderFault med info om at avskrivningsmåte ikke finnes",
+    "queriesWithExpectedValues": []
+}

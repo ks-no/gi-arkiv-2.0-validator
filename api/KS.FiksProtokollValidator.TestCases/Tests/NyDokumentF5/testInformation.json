@@ -1,0 +1,10 @@
+﻿{
+    "testName": "Send Dokument med tilknyttetRegistreringSom.kodeverdi(V), dokumenttype.kodeverdi, tittel, dokumentstatus.kodeverdi, variantformat.kodeverdi, format.kodeverdi(FEIL) og referanseJournalpostSystemID",
+    "description": "",
+    "testStep": "Feilsituasjon 5 Ulovlig verdi",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NyDokument",
+    "situation": "F5",
+    "expectedResult": "FinderFault med info om at format ikke finnes",
+    "queriesWithExpectedValues": []
+}

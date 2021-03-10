@@ -1,0 +1,10 @@
+﻿{
+    "testName": "Send Dokument med tilknyttetRegistreringSom.kodeverdi(VEDTAK), dokumenttype.kodeverdi, tittel, dokumentstatus.kodeverdi, variantformat.kodeverdi, format.kodeverdi og referanseJournalpostSystemID", //Et ferdig dokument i PDF/A-format tilknyttes journalposten som hoveddokument. Testes både med BASE64 og med URI.
+    "description": "",
+    "testStep": "Normalsituasjon 1 Input Dokument med retur av Dokument",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NyDokument",
+    "situation": "N1",
+    "expectedResult": "Dokument oppdatert med id-er og standardverdier",
+    "queriesWithExpectedValues": []
+}

@@ -1,0 +1,10 @@
+﻿{
+    "testName": "Send Merknad med merknad.merknadstype, merknad.merknadstekst, merknad.merknadsdato(i morgen) og journalnoekkel.saksaar.sakssekvensnummer.journalpostnummer", //Det bør ikke være lov å registrere informasjon frem i tid
+    "description": "",
+    "testStep": "Feilsituasjon 1 Ulovlig verdi",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NyJournalpostMerknad",
+    "situation": "F1",
+    "expectedResult": "ValidationFault med info om ulovlig verdi i merknadsdato",
+    "queriesWithExpectedValues": []
+}

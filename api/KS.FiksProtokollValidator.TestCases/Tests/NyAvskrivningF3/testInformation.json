@@ -1,0 +1,10 @@
+﻿{
+    "testName": "Send Avskrivning med avskrivningsmaate.kodeverdi og journalnoekkel.saksaar(1900).sakssekvensnummer.journalpostnummer",
+    "description": "",
+    "testStep": "Feilsituasjon 3 Finnes ikke",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NyAvskrivning",
+    "situation": "F3",
+    "expectedResult": "Finderxception med info om at saksmappe / journalpost ikke finnes",
+    "queriesWithExpectedValues": []
+}

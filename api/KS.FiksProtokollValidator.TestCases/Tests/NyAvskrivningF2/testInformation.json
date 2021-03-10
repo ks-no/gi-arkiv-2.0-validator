@@ -1,0 +1,10 @@
+﻿{
+    "testName": "Send Avskrivning med avskrivningsmaate.kodeverdi, referanseAvskriverEksternNoekkel.fagsystem.noekkel(999999) og journalnoekkel.saksaar.sakssekvensnummer.journalpostnummer",
+    "description": "",
+    "testStep": "Feilsituasjon 2 Finnes ikke",
+    "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
+    "operation": "NyAvskrivning",
+    "situation": "F2",
+    "expectedResult": "FinderFault med info om at journalpost som skal besvares ikke finnes",
+    "queriesWithExpectedValues": []
+}
