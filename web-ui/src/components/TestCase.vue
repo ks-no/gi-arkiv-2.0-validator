@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
     <span class="grow-right" :class="!hasRun ? 'notHasrun' : ''">
-      <b-col sm="9">
+      <b-col sm="8">
       <span
         v-on:click="isNotCollapsed = !isNotCollapsed"
         v-on:keyup.enter="isNotCollapsed = !isNotCollapsed"
@@ -37,7 +37,10 @@
         </div>
       </span>
       </b-col>
-      <b-col sm="1">
+      <b-col sm="3">
+      <span class="test-case-id"> {{ operation+""+situation }}</span>
+      </b-col>
+      <b-col sm="1"         style="margin-left:auto">
       <b-form-checkbox
         v-if="!hasRun"
         class="ext-left"
@@ -47,40 +50,22 @@
       />
       </b-col>
     </span>
-    <b-collapse :visible="!isCollapsed" :id="'collapse-' + testId">
-      <b-container fluid>
+    <b-collapse class="ml-4" :visible="!isCollapsed" :id="'collapse-' + testId" style="width:90%">
+      <b-container fluid class="collapsecolor" >
         <b-row style="margin-bottom: 5px">
-          <b-col cols="2">
-            <strong class="header">Beskrivelse:</strong>
+          <b-col cols="4">
+            <strong class="header" style="float:left">Beskrivelse:</strong>
           </b-col>
           <b-col> {{ description }} </b-col>
         </b-row>
-        <b-row style="margin-bottom: 5px">
-          <b-col cols="2">
-            <strong class="header">Testtrinn:</strong>
-          </b-col>
-          <b-col> {{ testStep }} </b-col>
-        </b-row>
-        <b-row style="margin-bottom: 5px">
-          <b-col cols="2">
-            <strong class="header">Operasjon:</strong>
-          </b-col>
-          <b-col> {{ operation }} </b-col>
-        </b-row>
-        <b-row style="margin-bottom: 5px">
-          <b-col cols="2">
-            <strong class="header">Situasjon:</strong>
-          </b-col>
-          <b-col> {{ situation }} </b-col>
-        </b-row>
-        <b-row style="margin-bottom: 5px">
-          <b-col cols="2">
-            <strong class="header">Meldingstype:</strong>
+        <b-row style="margin-bottom: 5px" >
+          <b-col cols="4" >
+            <strong class="header" style="float:left">Meldingstype:</strong>
           </b-col>
           <b-col> {{ messageType }} </b-col>
         </b-row>
         <b-row style="margin-bottom: 5px">
-          <b-col cols="2"> <strong class="header"> Meldingsinnhold: </strong> </b-col>
+          <b-col cols="4"> <strong class="header" style="float:left"> Meldingsinnhold: </strong> </b-col>
           <b-col>
             <TestCasePayloadFile
               :testName="testName"
@@ -108,8 +93,10 @@
         </div>
       </b-container>
     </b-collapse>
+    <hr/>
       </b-row>
     </b-container>
+   <hr/>
   </div>
 </template>
 
@@ -197,6 +184,9 @@ strong.header {
   align-items: center;
   font-size: 16px;
 }
+.test-case-id {
+  font-size: 14px;
+}
 
 .flex-title > * {
   display: block;
@@ -226,6 +216,10 @@ svg.notValidated {
   color: rgb(231, 181, 42);
 }
 
+.collapsecolor {
+  background-color: rgb(241, 241, 241);
+}
+
 .ext-right {
   float: right;
 }
@@ -238,7 +232,15 @@ svg.notValidated {
 .grow-right.notHasrun > div {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 3px;
+}
+
+hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 div span {
