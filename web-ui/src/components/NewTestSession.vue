@@ -9,9 +9,7 @@
     </div>
 
     <div style="margin: 40px 0">
-    <b-button style="float:right" variant="primary" v-on:click="runSelectedTests" v-if="!hasRun || running" :disabled="running">
-      Kjør valgte tester
-    </b-button>
+    
 
     <b-form-group v-if="!hasRun">
       <span style="width: 100%; display: inline-block; vertical-align: middle;">
@@ -27,6 +25,9 @@
         >
           {{ allTestsSelected ? "Velg ingen" : "Velg alle" }}
         </b-form-checkbox>
+        <b-button style="float:right" variant="primary" v-on:click="runSelectedTests" v-if="!hasRun || running" :disabled="running">
+      Kjør valgte tester
+    </b-button>
       </span>
 
     <b-spinner label="Loading..." v-if="running || loading"></b-spinner>
