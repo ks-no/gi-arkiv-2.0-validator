@@ -1,6 +1,6 @@
 {
-    "testName": "Send ny Saksmappe med tittel og feil referanseArkivdel.kodeverdi",
-    "description": "",
+    "testName": "Send ny Saksmappe - Feilsituasjon 2",
+    "description": "tittel(Test) og referanseArkivdel.kodeverdi(FEIL)",
     "testStep": "Feilsituasjon 2 Finnes ikke",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "NySaksmappe",

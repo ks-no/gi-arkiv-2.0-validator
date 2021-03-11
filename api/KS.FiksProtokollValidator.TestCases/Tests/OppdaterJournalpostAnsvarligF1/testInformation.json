@@ -1,6 +1,6 @@
 ﻿{
-    "testName": "Send Ansvarlig med enhet med nyAdministrativEnhetKode(NivåX), nySaksbehandlerInit og journalnoekkel.saksaar.sakssekvensnummer.journalpostnummer",
-    "description": "",
+    "testName": "Send OppdaterJournalpostAnsvarlig - Feilsituasjon 1",
+    "description": "nyAdministrativEnhetKode(NivåX), nySaksbehandlerInit(Sbh) og journalnoekkel.saksaar(2011).sakssekvensnummer(1).journalpostnummer(1)",
     "testStep": "Feilsituasjon 1 Finnes ikke",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "OppdaterJournalpostAnsvarlig",

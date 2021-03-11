@@ -1,6 +1,6 @@
 ﻿{
-    "testName": "Send ny EksternNøkkel med eksternnoekkel.fagsystem.noekkel(12345) og journalnoekkel.saksaar(1900).sakssekvensnummer.journalpostnummer",
-    "description": "",
+    "testName": "Send ny OppdaterJournalpostEksternNøkkel - Feilsituasjon 2",
+    "description": "eksternnoekkel.fagsystem(FAGSYS).noekkel(12345) og journalnoekkel.saksaar(1900).sakssekvensnummer(1).journalpostnummer(1)",
     "testStep": "Feilsituasjon 2 Finnes ikke",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "OppdaterJournalpostEksternNøkkel",

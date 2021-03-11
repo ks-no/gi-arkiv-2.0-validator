@@ -1,6 +1,6 @@
 {
-    "testName": "Send ny Sakspart med sakspart.kontakt.navn(DEF), organisasjonsfelter og saksnoekkel.saksaar(2011).sakssekvensnummer(1)", //Alle felt i sakspart som organisasjon skal fylles inn med verdier.
-    "description": "",
+    "testName": "Send ny Sakspart - Normalsituasjon 3", //Alle felt i sakspart som organisasjon skal fylles inn med verdier.
+    "description": "sakspart.kontakt.navn(DEF) og saksnoekkel.saksaar(2011).sakssekvensnummer(1)",
     "testStep": "Normalsituasjon 3 Input Sakspart",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "NySakspart",

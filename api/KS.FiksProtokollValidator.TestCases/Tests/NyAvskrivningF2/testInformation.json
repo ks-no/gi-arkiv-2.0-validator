@@ -1,6 +1,6 @@
 ﻿{
-    "testName": "Send Avskrivning med avskrivningsmaate.kodeverdi, referanseAvskriverEksternNoekkel.fagsystem.noekkel(999999) og journalnoekkel.saksaar.sakssekvensnummer.journalpostnummer",
-    "description": "",
+    "testName": "Send Avskrivning - Feilsituasjon 2",
+    "description": "avskrivningsmaate.kodeverdi(BU), referanseAvskriverEksternNoekkel.fagsystem(FAGSYS).noekkel(999999) og journalnoekkel.saksaar(2011).sakssekvensnummer(1).journalpostnummer(1)",
     "testStep": "Feilsituasjon 2 Finnes ikke",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "NyAvskrivning",

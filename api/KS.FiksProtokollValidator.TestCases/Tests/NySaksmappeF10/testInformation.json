@@ -1,6 +1,6 @@
 ﻿{
-    "testName": "Send ny Saksmappe og Tilleggsinformasjon og ulovlig verdi 0/1/0/0 i matrikkelnummer ", // Vi forutsetter at integrerende klient har validert om matrikkel finnes
-    "description": "",
+    "testName": "Send ny Saksmappe - Feilsituasjon 10", // Vi forutsetter at integrerende klient har validert om matrikkel finnes
+    "description": "Og Tilleggsinformasjon, tittel(Test), matrikkelnummer(0/1/0/0)",
     "testStep": "Feilsituasjon 10 Finnes ikke",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "NySaksmappe",

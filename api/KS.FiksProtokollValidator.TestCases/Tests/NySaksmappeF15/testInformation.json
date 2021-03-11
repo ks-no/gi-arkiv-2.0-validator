@@ -1,6 +1,6 @@
 {
-    "testName": "Send ny Saksmappe og Punkt, med tittel punkt.koordinatsystem.kodeverdi.x og .y. Med ugyldig Koordinatsystemverdi", //Koordinatsystem støttes ikke
-    "description": "",
+    "testName": "Send ny Saksmappe - Feilsituasjon 15", //Koordinatsystem støttes ikke
+    "description": "tittel(Test) og punkt.koordinatsystem(100).kodeverdi.x(12345678) og .y(123456789)",
     "testStep": "Feilsituasjon 15 Ulovlig verdi",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "NySaksmappe",

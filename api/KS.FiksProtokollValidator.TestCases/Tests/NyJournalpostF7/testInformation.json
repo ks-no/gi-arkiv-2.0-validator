@@ -1,6 +1,6 @@
 {
-    "testName": "Send ny Journalpost med tittel, journalposttype.kodeverdi, korrespondanseparttype.kodeverdikontakt.navn og avskrivningsmaate.kodeverdi, referanseAvskriverEksternNoekkel.fagsystem.noekkel",
-    "description": "",
+    "testName": "Send ny Journalpost - Feilsituasjon 7",
+    "description": "tittel(Tittel), journalposttype.kodeverdi(I), korrespondanseparttype.kodeverdi(Avsender), kontakt.navn(NN) og avskrivningsmaate.kodeverdi(BU), referanseAvskriverEksternNoekkel.fagsystem(FAGSYS).noekkel(999)",
     "testStep": "Feilsituasjon 7 Finnes ikke",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "NyJournalpost",

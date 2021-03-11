@@ -1,6 +1,6 @@
 ﻿{
-    "testName": "Send ny Saksmappe og Tilleggsinformasjon, med tittel, informasjonstye.kodeverdi, informasjon og oppbevaresTilDato 'i går'", // OppbevaresTilDato støttes ikke
-    "description": "",
+    "testName": "Send ny Saksmappe - Feilsituasjon 5", // OppbevaresTilDato støttes ikke
+    "description": "tittel(Test), informasjonstye.kodeverdi(TILLEGG), informasjon(Tillegg) og oppbevaresTilDato(i går)",
     "testStep": "Feilsituasjon 5 Finnes ikke",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "NySaksmappe",

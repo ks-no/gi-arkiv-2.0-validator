@@ -1,6 +1,6 @@
 {
-    "testName": "Send ny Journalpost med tittel, journalposttype.kodeverdi og referanseArkivdel.kodeverdi(FEIL)",
-    "description": "",
+    "testName": "Send ny Journalpost - Feilsituasjon 2",
+    "description": "tittel(Test), journalposttype.kodeverdi(X) og referanseArkivdel.kodeverdi(FEIL)",
     "testStep": "Feilsituasjon 2 Finnes ikke",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "NyJournalpost",

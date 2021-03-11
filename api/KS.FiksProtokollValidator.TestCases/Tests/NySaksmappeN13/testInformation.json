@@ -1,6 +1,6 @@
 {
-    "testName": "Send ny Saksmappe og Punkt, med tittel punkt.koordinatsystem.kodeverdi.x(234567) og .y(2345678)",
-    "description": "",
+    "testName": "Send ny Saksmappe - Normalsituasjon 13",
+    "description": "tittel(Test), punkt.koordinatsystem(22).kodeverdi.x(234567) og .y(2345678)",
     "testStep": "Normalsituasjon 13 Input Saksmappe og Punkt med retur Saksmappe",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "NySaksmappe",

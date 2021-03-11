@@ -1,6 +1,6 @@
 ﻿{
-    "testName": "Send ny Ansvarlig med inputverdi EGEN",
-    "description": "",
+    "testName": "Send ny Ansvarlig Normalsituasjon 1",
+    "description": "Inputverdi EGEN",
     "testStep": "Normalsituasjon 1 Input Ansvarlig med retur av Journalpost",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "FinnJournalposterUnderArbeid",

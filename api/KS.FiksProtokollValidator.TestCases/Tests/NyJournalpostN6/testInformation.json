@@ -1,6 +1,6 @@
 {
-    "testName": "Send ny Journalpost med tittel, journalposttype.kodeverdi, korrespondanseparttype.kodeverdi og kontakt.navn",
-    "description": "",
+    "testName": "Send ny Journalpost - Normalsituasjon 6",
+    "description": "tittel(Test), journalposttype.kodeverdi(I), korrespondanseparttype.kodeverdi(Avsender) og kontakt.navn(NN)",
     "testStep": "Normalsituasjon 6 Input Journalpost med retur av Journalpost",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "NyJournalpost",

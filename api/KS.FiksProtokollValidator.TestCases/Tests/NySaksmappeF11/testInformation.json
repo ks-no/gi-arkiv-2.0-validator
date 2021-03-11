@@ -1,6 +1,6 @@
 {
-    "testName": "Send ny Saksmappe og Bygningsid(byggIdent:123/99)", // Vi forutsetter at integrerende klient har validert byggident
-    "description": "",
+    "testName": "Send ny Saksmappe - Feilsituasjon 11", // Vi forutsetter at integrerende klient har validert byggident
+    "description": "Bygningsid(byggIdent:123/99), tittel(Test)",
     "testStep": "Feilsituasjon 11 Finnes ikke",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "NySaksmappe",

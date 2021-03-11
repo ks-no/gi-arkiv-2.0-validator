@@ -1,6 +1,6 @@
 ﻿{
-    "testName": "Send Dokument med tilknyttetRegistreringSom.kodeverdi(V), dokumenttype.kodeverdi, tittel, dokumentstatus.kodeverdi, variantformat.kodeverdi, format.kodeverdi(FEIL) og referanseJournalpostSystemID",
-    "description": "",
+    "testName": "Send Dokument - Feilsituasjon 5",
+    "description": "tilknyttetRegistreringSom.kodeverdi(V), dokumenttype.kodeverdi(TEGNING), tittel(Tittel), dokumentstatus.kodeverdi(F), variantformat.kodeverdi(A), format.kodeverdi(FEIL) og referanseJournalpostSystemID(12345)",
     "testStep": "Feilsituasjon 5 Ulovlig verdi",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "NyDokument",

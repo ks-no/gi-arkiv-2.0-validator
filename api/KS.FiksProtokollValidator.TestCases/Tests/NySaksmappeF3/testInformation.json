@@ -1,6 +1,6 @@
 {
-    "testName": "Send ny Saksmappe og Klasse, med tittel og klassifikasjonssystem.kodeverdiklasseID FE12345",
-    "description": "",
+    "testName": "Send ny Saksmappe - Feilsituasjon 3",
+    "description": "tittel(Test) og klassifikasjonssystem.kodeverdiklasseID(FE12345)",
     "testStep": "Feilsituasjon 3 Finnes ikke",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "NySaksmappe",

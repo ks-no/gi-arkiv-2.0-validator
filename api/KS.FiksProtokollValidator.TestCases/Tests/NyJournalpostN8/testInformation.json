@@ -1,6 +1,6 @@
 {
-    "testName": "Send ny Journalpost med tittel, journalposttype.kodeverdi, korrespondanseparttype.kodeverdi, kontakt.navn, avskrivningsmaate.kodeverdi og referanseAvskriverEksternNoekkel.fagsystem.noekkel",
-    "description": "",
+    "testName": "Send ny Journalpost - Normalsituasjon 8",
+    "description": "tittel(Test), journalposttype.kodeverdi(U), korrespondanseparttype.kodeverdi(Mottaker), kontakt.navn(NN), avskrivningsmaate.kodeverdi(BU) og referanseAvskriverEksternNoekkel.fagsystem.noekkel(FAGSYS123)",
     "testStep": "Normalsituasjon 8 Input Journalpost med retur av Journalpost",
     "messageType": "no.ks.fiks.gi.arkivintegrasjon.oppdatering.basis.arkivmelding.v1",
     "operation": "NyJournalpost",
