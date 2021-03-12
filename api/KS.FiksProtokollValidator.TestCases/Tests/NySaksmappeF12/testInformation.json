@@ -6,5 +6,6 @@
     "operation": "NySaksmappe",
     "situation": "F12",
     "expectedResult": "ValidationFault",
-    "queriesWithExpectedValues": []
+    "queriesWithExpectedValues": [],
+    "supported": false
 } //Skal ikke denne inneholde kommunenummer? Vil den ikke feile på at den ikke inneholder kommunenummer?

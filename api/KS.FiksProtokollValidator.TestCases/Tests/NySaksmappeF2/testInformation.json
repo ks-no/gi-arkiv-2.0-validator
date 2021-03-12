@@ -6,5 +6,6 @@
     "operation": "NySaksmappe",
     "situation": "F2",
     "expectedResult": "FinderFault med info om at arkivdel ikke finnes",
-    "queriesWithExpectedValues": []
+    "queriesWithExpectedValues": [],
+    "supported": false
 }

@@ -42,9 +42,7 @@ export default {
   methods: {
     getTestSession: async function(testSessionId) {
       this.loading = true;
-      const response = await axios.get(
-        "/api/TestSessions/" + testSessionId
-      );
+      const response = await axios.get("/api/TestSessions/" + testSessionId);
       this.testSession = {
         ...response.data,
         fiksRequests: this.sortRequests(response.data.fiksRequests)
@@ -70,7 +68,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-img{
+img {
   margin-top: 50px;
 }
 </style>

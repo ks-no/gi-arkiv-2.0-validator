@@ -6,5 +6,6 @@
     "operation": "NySaksmappe",
     "situation": "N13",
     "expectedResult": "Saksmappe og punkt med utfylte standardverdier",
-    "queriesWithExpectedValues": []
+    "queriesWithExpectedValues": [],
+    "supported": false
 }

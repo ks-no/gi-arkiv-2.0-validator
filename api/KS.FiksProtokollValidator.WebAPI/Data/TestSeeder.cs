@@ -42,7 +42,8 @@ namespace KS.FiksProtokollValidator.WebAPI.Data
                     TestStep = (string) testInformation["testStep"],
                     Operation = (string) testInformation["operation"],
                     Situation = (string) testInformation["situation"],
-                    ExpectedResult = (string) testInformation["expectedResult"]
+                    ExpectedResult = (string) testInformation["expectedResult"],
+                    Supported = (bool)testInformation["supported"]
                 };
 
                 var attachmentDirectory = Path.Combine(testDirectory.FullName, "Attachments");

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
@@ -31,5 +32,7 @@ namespace KS.FiksProtokollValidator.WebAPI.Models
         public string Situation { get; set; }
         [Required]
         public string ExpectedResult { get; set; }
+        [Required]
+        public Boolean Supported { get; set; }
     }
 }

@@ -6,5 +6,6 @@
     "operation": "NySaksmappe",
     "situation": "F6",
     "expectedResult": "FinderFault med info om at informasjonstype ikke finnes",
-    "queriesWithExpectedValues": []
+    "queriesWithExpectedValues": [],
+    "supported": false
 }

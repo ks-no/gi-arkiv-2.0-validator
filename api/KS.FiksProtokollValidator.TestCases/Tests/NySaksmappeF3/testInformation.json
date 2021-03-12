@@ -6,5 +6,6 @@
     "operation": "NySaksmappe",
     "situation": "F3",
     "expectedResult": "FinderFault med info om at klasseID ikke finnes",
-    "queriesWithExpectedValues": []
+    "queriesWithExpectedValues": [],
+    "supported": false
 }

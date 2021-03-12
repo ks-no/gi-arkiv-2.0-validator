@@ -6,5 +6,6 @@
     "operation": "NyJournalpost",
     "situation": "N1",
     "expectedResult": "Journalpost med utfylte standardverdier",
-    "queriesWithExpectedValues": []
+    "queriesWithExpectedValues": [],
+    "supported": false
 }

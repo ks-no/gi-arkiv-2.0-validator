@@ -6,5 +6,6 @@
     "operation": "OppdaterMappeStatus",
     "situation": "F1",
     "expectedResult": "FinderFault med info om at saksstatus ikke finnes",
-    "queriesWithExpectedValues": []
+    "queriesWithExpectedValues": [],
+    "supported": false
 }

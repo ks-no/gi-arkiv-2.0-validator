@@ -6,5 +6,6 @@
     "operation": "FinnJournalposterUnderArbeid",
     "situation": "N2",
     "expectedResult": "Journalposter registrert med egen enhet som ansvarlig og med status R",
-    "queriesWithExpectedValues": []
+    "queriesWithExpectedValues": [],
+    "supported": false
 }

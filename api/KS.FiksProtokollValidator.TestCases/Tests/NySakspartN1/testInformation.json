@@ -6,5 +6,6 @@
     "operation": "NySakspart",
     "situation": "N1",
     "expectedResult": "Saksmappe oppdatert med ny sakspart",
-    "queriesWithExpectedValues": []
+    "queriesWithExpectedValues": [],
+    "supported": false
 }

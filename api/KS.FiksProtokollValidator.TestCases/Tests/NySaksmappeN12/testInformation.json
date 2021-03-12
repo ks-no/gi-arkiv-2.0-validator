@@ -6,5 +6,6 @@
     "operation": "NySaksmappe",
     "situation": "N12",
     "expectedResult": "Ikke støttet enda",
-    "queriesWithExpectedValues": []
+    "queriesWithExpectedValues": [],
+    "supported": false
 }

@@ -6,5 +6,6 @@
     "operation": "NySaksmappe",
     "situation": "F1",
     "expectedResult": "ValidationFault med info om manglende tittel",
-    "queriesWithExpectedValues": []
+    "queriesWithExpectedValues": [],
+    "supported": false
 }

@@ -6,5 +6,6 @@
     "operation": "NySaksmappe",
     "situation": "F4",
     "expectedResult": "FinderFault med info om at sakspartRolle ikke finnes",
-    "queriesWithExpectedValues": []
+    "queriesWithExpectedValues": [],
+    "supported": false
 }

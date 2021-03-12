@@ -6,5 +6,6 @@
     "operation": "NySaksmappe",
     "situation": "F15",
     "expectedResult": "ValidationFault",
-    "queriesWithExpectedValues": []
+    "queriesWithExpectedValues": [],
+    "supported": false
 }

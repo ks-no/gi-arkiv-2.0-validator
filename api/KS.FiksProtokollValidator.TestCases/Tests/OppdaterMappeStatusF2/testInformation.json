@@ -6,5 +6,6 @@
     "operation": "OppdaterMappeStatus",
     "situation": "F2",
     "expectedResult": "FinderFault med info om at saksmappe ikke finnes",
-    "queriesWithExpectedValues": []
+    "queriesWithExpectedValues": [],
+    "supported": false
 }
