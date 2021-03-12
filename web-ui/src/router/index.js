@@ -1,4 +1,4 @@
-import App from "@/App";
+import App2 from "@/components/App2";
 import TestSession from "@/components/TestSession";
 import NewTestSession from "@/components/NewTestSession";
 
@@ -11,8 +11,8 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "App",
-      component: App
+      name: "AppStart",
+      component: App2
     },
     {
       path: "/TestSession/:testSessionId",

@@ -1,17 +1,7 @@
 <template>
-  <div id="app">
-    <b-navbar toggleable="lg" type="light" variant="light" :fixed="'top'">
-      <img style="margin-left:150px" src="./assets/logo.png" fluid alt="stam" />
-      <b-navbar-brand style="padding:10px 25px 10px 4px" to="/">
-        Fiks-protokollvalidator
-      </b-navbar-brand>
-      <b-navbar-toggle target="nav-collapse" />
-      <b-navbar-nav>
-        <b-nav-item to="/NewTestSession">Ny testsesjon</b-nav-item>
-      </b-navbar-nav>
-    </b-navbar>
-    <router-view />
-      </div>
+  <div id="app2">
+        <b-button>test</b-button>
+  </div>
 </template>
 
 <script>

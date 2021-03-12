@@ -2,6 +2,28 @@
   <div>
     <h2>Resultater</h2>
 
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" style="align-self: baseline" id="basic-addon3">Adresse til denne testen:</span>
+      </div>
+      <input
+        id="account-id"
+        type="text"
+        class="form-control"
+        aria-label="UUID"
+        aria-describedby="basic-addon1"
+        v-model="sessionurl"
+        readonly="true"
+        ref="sessionUrlCopy"
+      />
+      <b-button 
+      variant="primary"
+      v-on:click="copyURL()"
+      >
+        Kopier til utklippstavlen
+      </b-button>
+    </div>
+
     <b-spinner label="Loading..." v-if="loading"></b-spinner>
     &nbsp;
 
@@ -35,7 +57,8 @@ export default {
   data() {
     return {
       testSession: null,
-      loading: false
+      loading: false,
+      sessionurl: "http://localhost:8080/#/TestSession/"+this.$route.params.testSessionId
     };
   },
 
@@ -55,12 +78,20 @@ export default {
       return requests
         ? requests.sort((a, b) => new Date(a.sentAt) - new Date(b.sentAt))
         : null;
+    },
+
+    copyURL() {
+      const copyText = this.$refs.sessionUrlCopy;
+      copyText.select();
+      document.execCommand("copy");
+      alert("Adressen er kopiert");
     }
   },
 
   created() {
     if (this.$route.params.testSessionId) {
       this.getTestSession(this.$route.params.testSessionId);
+      localStorage.validatorLastTest = this.sessionurl;
     }
   }
 };
